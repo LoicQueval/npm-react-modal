@@ -1,0 +1,39 @@
+{
+  "name": "loic-react-modal",
+  "version": "0.1.1",
+  "main": "src/lib/index.js",
+  "module": "src/lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.21.3",
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^10.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "rimraf": "^4.4.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
